@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Tic Tac Toe: The Game
+# Tic Tac Toe: The Game
 
 Will do a better Readme, eventually
 

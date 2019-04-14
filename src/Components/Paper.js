@@ -16,12 +16,10 @@ class Paper extends Component {
             this.props.history.push('/');
         } else {
             this.historyState = this.props.history.location.state;
-            console.log(this.historyState);
         }
     }
     
     render(){
-        console.log(this.props);
         return <div>
         <div className="paper">
             <div className="lines">

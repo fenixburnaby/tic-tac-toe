@@ -5,10 +5,6 @@ import GameStart from './Components/GameStart';
 import Paper from './Components/Paper';
 
 class Main extends Component {
-    constructor() {
-        super()
-        this.state = { }
-    }  
     
     render(){
 

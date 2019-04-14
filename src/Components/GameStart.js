@@ -9,7 +9,7 @@ class GameStart extends Component {
         this.state={
             playerX : '',
             playerO:'',
-            boardSelection:'1'
+            boardSelection:'3'
         }
     }
      
@@ -19,7 +19,7 @@ class GameStart extends Component {
         
         this.props.history.push('game',{
               playerX: this.state.playerX,
-              PlayerO: this.state.playerO,
+              playerO: this.state.playerO,
               boardSelection: this.state.boardSelection
 
             });
@@ -45,8 +45,8 @@ class GameStart extends Component {
                 
                 <div className="select">
 					<select id="boardSelection" className="select-text" required onChange={(event) => this.setState({ boardSelection: event.target.value})}>
-						<option value="1" defaultValue>Default</option>
-                        <option value="" disabled >More Options Coming Soon</option>
+						<option value="3" defaultValue>Default (3x3) </option>
+                        <option value="" disabled >More Options Coming Soon!</option>
 					</select>
 					<span className="select-highlight"></span>
 					<span className="select-bar"></span>

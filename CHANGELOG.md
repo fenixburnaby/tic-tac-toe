@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2]
+### Changed
+- Did some cleanup and added favicon
+### Added
+- Winner-check function
+- Better management of component state and validations.
+
 ## [0.1.1]
 ### Changed
 - Structure to use components
