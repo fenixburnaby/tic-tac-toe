@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {withRouter} from "react-router-dom";
 import GameBoard from './GameBoard';
+import Footer from './Footer';
 
 class Paper extends Component {
 
@@ -18,7 +19,7 @@ class Paper extends Component {
             this.historyState = this.props.history.location.state;
         }
     }
-    
+
     render(){
         return <div>
         <div className="paper">
@@ -33,6 +34,7 @@ class Paper extends Component {
             <div className="holes hole-middle"></div>
             <div className="holes hole-bottom"></div>
         </div>
+        <Footer />
     </div>;
     };
 };

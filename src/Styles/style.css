@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 body {
   margin: 0;
   padding: 0;
@@ -62,7 +64,7 @@ h1 {
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 25%;
 }
 
@@ -89,6 +91,70 @@ h1 {
 
 .game-board .box:nth-child(7),.box:nth-child(8),.box:nth-child(9){
     border-bottom: none;
+}
+
+.contenders {
+  font-family: 'Indie Flower';
+  font-size: 28px;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  top: 20%;
+  left: 15%;
+}
+
+.playerTag {
+  font-size: 28px;
+  display: unset;
+  margin: unset;
+  padding: unset;
+  border: none;
+}
+
+.playerX {
+  color: cornflowerblue;
+}
+
+.playerO {
+  color: crimson;
+}
+
+.useLink {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+  margin-top: 0px;
+}
+
+.goBack {
+  float: right;
+}
+
+.backLink {
+  margin: unset;
+  padding: unset;
+}
+
+.winner {
+  color: chocolate;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+.tie {
+  color: rgb(28, 95, 62);
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+.footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: rgba(182, 109, 41, 0.89);
+  position: fixed;
+  bottom: 5px;
+  right: 14px;
 }
 
 .modern-form {

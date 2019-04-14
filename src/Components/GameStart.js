@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {withRouter} from "react-router-dom";
+import Footer from './Footer';
 
 class GameStart extends Component {
 
@@ -23,9 +24,7 @@ class GameStart extends Component {
               boardSelection: this.state.boardSelection
 
             });
-                                
-        
-        
+                        
     }
     
     render(){
@@ -56,8 +55,7 @@ class GameStart extends Component {
             <input type="submit" value="Let's Play" />
             </form>
             </div>
-
-
+            <Footer />
     </div>;
     };
 };
